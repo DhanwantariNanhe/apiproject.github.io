@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #EFEFBB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.main{
+
+    height: 90vh;
+    width: 100vw;
+    background: #EFEFBB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+#bookdata{
+
+    background: #EFEFBB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.searchbox{
+    /* border: 1px solid red; */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.submitBtn{
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.searchbox form label{
+
+    font-size: 2rem;
+    color: initial;
+}
+
+.searchbox form input{
+    height: 3rem;
+    background-color: transparent;
+    border-radius: 10px;
+    color: initial;
+    font-size: 1.5rem;
+}
+
+.searchBtn{
+    background-color: black !important;
+    color: white !important;
+    width: 40rem !important;
+    margin-top: 1rem;
+
+}
+
+.searchBtn:hover{
+    background-color: transparent !important;
+    color: black !important;
+}
